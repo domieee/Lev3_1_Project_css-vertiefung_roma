@@ -55,20 +55,90 @@
 
 .content-section-1 .content-section-1__header {
     display: flex;
-    align-items: center;
+    align-items: baseline;
 }
 
-.content-section-1 .content-section-1__header #paragraph-take-action {
-    font-family: robotoRegular;
-    font-size: 3rem;
+.content-section-1 .content-section-1__header #content-section-1__header__paragraph-1 {
+    font-family: RobotoBold;
+    letter-spacing: 3px;
+    font-size: 1.5rem;
     color: #fff;
-    margin-left: 7px;
+    margin-left: 15px;
+    margin-right: 10%;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #e7bc0e;
+    line-height: 12px;
 }
-
 
 .content-section-1 .content-section-1__header img {
     margin-left: auto;
 }
+
+.content-section-1__article-1 {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    width: 25%;
+}
+
+#content-section-1__article-1__paragraph-1 {
+    font-family: santioBold;
+    font-size: 5rem;
+    color: #fff;
+    padding-bottom: 50px;
+}
+
+#content-section-1__article-1__paragraph-2 {
+    font-family: tangerineBold;
+    font-size: 3rem;
+    color: #e7bc0e;
+}
+
+/* SECTION 2 STYLES */
+
+.content-section-2 {
+    position: relative;
+}
+
+.content-section-2__article-1 {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    width: 45%;
+}
+
+#content-section-2__article-1__paragraph-1 {
+    font-size: 2.5rem;
+    font-family: santioBold;
+    color: #6bc1a3;
+    line-height: 50px;
+}
+
+#content-section-2__article-1__paragraph-1__span {
+    background-color: #000;
+    color: #efefef;
+}
+
+.content-section-3 {
+    position: relative;
+}
+
+.content-section-3 .content-section-3__article-1 {
+    position: absolute;
+}
+ #content-section-3__img-workers {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+ }
+
+
+
+
+
+
+
+
 .parallax-image {
     background-image: url(../img/cleo-topper.jpg);
     height: 100vh;
@@ -87,14 +157,6 @@
     background-size: cover;
 }
 
-.content-section-7 {
-    background-image: url(../img/kid.png);
-    height: 100vh;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 
 .content-section-8 {
