@@ -26,6 +26,49 @@
         - 'santioBold'
 */
 
+@font-face {
+    font-family: tangerineRegular;
+    src: url(../fonts/Tangerine-Regular.ttf);
+}
+@font-face {
+    font-family: tangerineBold;
+    src: url(../fonts/Tangerine-Bold.ttf);
+}
+@font-face {
+    font-family: robotoRegular;
+    src: url(../fonts/Roboto-Regular.ttf);
+
+}@font-face {
+    font-family: robotoBold;
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: santioRegular;
+    src: url(../fonts/Santio\ regular.ttf);
+}
+@font-face {
+    font-family: santioBold;
+    src: url(../fonts/Santio\ Bold.ttf);
+}
+
+/* SECTION 1 STYLES */
+
+.content-section-1 .content-section-1__header {
+    display: flex;
+    align-items: center;
+}
+
+.content-section-1 .content-section-1__header #paragraph-take-action {
+    font-family: robotoRegular;
+    font-size: 3rem;
+    color: #fff;
+    margin-left: 7px;
+}
+
+
+.content-section-1 .content-section-1__header img {
+    margin-left: auto;
+}
 .parallax-image {
     background-image: url(../img/cleo-topper.jpg);
     height: 100vh;
@@ -33,4 +76,29 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.content-section-7 {
+    background-image: url(../img/kid.png);
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content-section-7 {
+    background-image: url(../img/kid.png);
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.content-section-8 {
+    height: 100vh;
+    background-color: #000;
+    color: #fff;
 }
