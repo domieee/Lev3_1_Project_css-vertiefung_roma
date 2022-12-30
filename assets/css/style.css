@@ -25,3 +25,12 @@
         - 'santioRegular'
         - 'santioBold'
 */
+
+.parallax-image {
+    background-image: url(../img/cleo-topper.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
